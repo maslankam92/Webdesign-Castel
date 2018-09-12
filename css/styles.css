@@ -80,14 +80,14 @@ ul {
 }
 
 /* Hero */
-.hero {
-  background: url('../img/bg.jpeg') no-repeat;
+.hero--home {
+  background: url('../img/home-bg.jpeg') no-repeat;
   background-size: cover;
   color: var(--lightgray-color);
   text-align: center;
 }
 
-.hero .container {
+.hero--home .container {
   padding: 12em 0;
 }
 
@@ -191,4 +191,121 @@ ul {
 
 .footer .container {
   padding: 2em 0;
+}
+
+.footer .fa-heart {
+  color: var(--primary-color);
+}
+
+/* About.html */
+
+.hero--about {
+  background: url('../img/about-bg.jpeg') no-repeat center;
+  background-size: cover;
+  color: var(--lightgray-color);
+  text-align: center;
+}
+
+.hero--about .container {
+  padding: 12em 0;
+}
+
+.hero__title {
+  font-size: 4em;
+  margin: 0;
+}
+
+.story .container {
+  color: var(--darkblue-color);
+  padding: 4em 0;
+}
+
+.story h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+/* Services.html */
+.services .container {
+  color: var(--darkblue-color);
+  padding: 4em 0;
+}
+
+.services h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.services__flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__items {
+  width: 73%;
+}
+
+.services__quote {
+  width: 20%;
+}
+
+.services__item {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.2);
+  padding: 2em;
+  margin: 1em 0;
+}
+
+.services__item h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.services__quote {
+  background-color: var(--darkblue-color);
+  color: var(--lightgray-color);
+  border-radius: 3px;
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.2);
+  padding: 2em;
+  margin: 1em 0;
+}
+
+.services__quote * {
+  box-sizing: border-box;
+}
+
+.services__quote h3 {
+  margin-top: 0;
+}
+
+.form__line * {
+  display: block;
+  width: 100%;
+}
+
+.form__line input,
+.form__line textarea,
+.quote__form button {
+  border: 0;
+  border-radius: 40px;
+  color: var(--darkblue-color);
+  font-size: 1em;
+  font-family: 'Varela Round', sans-serif;
+  margin-bottom: 1.5em;
+  padding: .5em 0em .5em 1em;
+}
+
+.quote__form button {
+  padding: .8em 2em;
+  background-color: var(--primary-color);
+  color: var(--lightgray-color);
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.form__line textarea {
+  border-radius: 15px;
+  resize: none;
 }
