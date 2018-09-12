@@ -1,5 +1,5 @@
 * {
-  box-sizing: content-box-box;
+  box-sizing: content-box;
 }
 
 :root {
@@ -119,23 +119,76 @@ ul {
   margin: 0;
 }
 
-.subscribtion__form input {
-  border: 0;
-  background-color: var(--lightgray-color);
-  border-radius: 40px;
-  color: var(--darkblue-color);
-  font-family: 'Varela Round', sans-serif;
-  font-size: 1em;
-  padding: .8em 2em;
-}
-
+.subscribtion__form input,
 .subscribtion__form button {
   border: 0;
   border-radius: 40px;
-  background-color: var(--primary-color);
-  color: var(--lightgray-color);
-  cursor: pointer;
   font-size: 1em;
   font-family: 'Varela Round', sans-serif;
   padding: .8em 2em;
+}
+
+.subscribtion__form input {
+  background-color: var(--lightgray-color);
+  color: var(--darkblue-color);
+}
+
+.subscribtion__form button {
+  background-color: var(--primary-color);
+  color: var(--lightgray-color);
+  cursor: pointer;
+}
+
+/* Technologies */
+
+.technologies .container {
+  color: var(--darkblue-color);
+  padding: 4em 0;
+}
+
+.technologies__cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.technologies h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.technologies__card {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.2);
+  padding: 2em 1em;
+  width: 25%;
+}
+
+.technologies__card h3 {
+  font-size: 1.5em;
+}
+
+.technologies__card--html i {
+  color: #f69b74;
+}
+
+.technologies__card--css i {
+  color: #71c4e7;
+}
+
+.technologies__card--js i {
+  color: #f6d46e;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--darkblue-color);
+  color: var(--lightgray-color);
+  text-align: center;
+}
+
+.footer .container {
+  padding: 2em 0;
 }
