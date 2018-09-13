@@ -245,10 +245,6 @@ ul {
   width: 73%;
 }
 
-.services__quote {
-  width: 20%;
-}
-
 .services__item {
   background-color: #fff;
   border-radius: 3px;
@@ -262,13 +258,39 @@ ul {
   margin-top: 0;
 }
 
+.services__tools li {
+  border-radius: 15px;
+  background-color: var(--darkblue-color);
+  color: var(--lightgray-color);
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 4px 2px;
+  padding: 4px 8px;
+}
+
+.services__price {
+  text-align: right;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.services__price p {
+  border-radius: 40px;
+  display: inline;
+  padding: .6em 2em;
+  background-color: var(--primary-color);
+  color: var(--lightgray-color);
+  margin-bottom: 0;
+}
+
 .services__quote {
   background-color: var(--darkblue-color);
   color: var(--lightgray-color);
   border-radius: 3px;
   box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.2);
   padding: 2em;
-  margin: 1em 0;
+  margin: 1em;
+  width: 20%;
 }
 
 .services__quote * {
